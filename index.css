@@ -5,8 +5,8 @@
     font-size: 15px;
 }
 
-#main {
-    margin-left: 400px;
+.main {
+    margin: 25px 50px 15px 250px
 }
 
 body {
@@ -42,4 +42,14 @@ button {
 
 #cases {
     margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    input {
+        width: 100%;
+    }
+    .main {
+        margin: 25px;
+        text-align: center;
+    }
 }
