@@ -6,17 +6,15 @@
 }
 
 .main {
-    margin: 25px 50px 15px 250px
+    margin: 25px 50px 15px 250px;
 }
 
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/pexels-edward-jenner-4031867.jpg');
-    height: 100%;
-    width: 100%;
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
-    overflow: hidden;
+    background-repeat: no-repeat;
+    overflow: auto;
 }
 
 input {
@@ -40,8 +38,19 @@ button {
     cursor: pointer;
 }
 
-ul {
+.cases {
+    background-color: rgb(59, 59, 235);
+    height: 30%;
+    width: 40%;
     color: white;
+    text-align: center;
+    margin: 25px 50px 15px 350px;
+}
+
+li {
+    padding: 15px;
+    color: white;
+    list-style: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -51,5 +60,8 @@ ul {
     .main {
         margin: 25px;
         text-align: center;
+    }
+    .cases {
+        margin: auto;
     }
 }

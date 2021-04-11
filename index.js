@@ -1,9 +1,11 @@
 const btn = document.getElementById("submit");
+var div = document.getElementsByClassName("cases")[0];
 
+btn.onclick = function() {
+
+}
 
 btn.addEventListener("click", apiCall);
-
-
 
 function apiCall() {
     const dateOne = document.getElementById('start').value;
@@ -20,17 +22,19 @@ function apiCall() {
         if (this.status === 200) {
 
             var obj = JSON.parse(this.responseText);
-            console.log(obj);
-            let list = document.getElementById("list");
+
+            var list = document.getElementById("list");
+
             var confirm = "";
             var active = "";
             var die = "";
 
             for (let index = 0; index < obj.length; index++) {
                 const element = obj[index];
-                confirm += `<li>${element.Confirmed}</li>`;
-                active += `<li>${element.Active}</li>`;
-                die += `<li>${element.deaths}</li>`;
+
+                confirm += `<li>Confirmed Cases : ${element.Confirmed}</li>`;
+                active += `<li>Active Cases : ${element.Active}</li>`;
+                die += `<li>Death Cases : ${element.Deaths}</li>`;
 
             }
             list.innerHTML += confirm;
