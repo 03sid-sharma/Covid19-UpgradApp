@@ -22,10 +22,11 @@ input {
     padding: 10px;
     margin: 25px;
     display: inline-block;
-    border: 2px solid rgb(168, 165, 165);
+    border: 2px solid rgb(101, 156, 192);
     box-sizing: border-box;
     background-color: rgb(181, 247, 247);
     font-weight: bolder;
+    border-radius: 4px;
 }
 
 button {
@@ -36,6 +37,7 @@ button {
     background-color: blue;
     color: white;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .cases {
