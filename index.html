@@ -11,13 +11,16 @@
 
 <body>
     <div class="main">
-        <input type="text" placeholder="Country" required>
+        <input id="country" type="text" placeholder="Country" required>
         <input id="start" type="date" required>
         <input id="end" type="date" required>
         <button id="submit">Submit</button>
     </div>
 
-    <div id="cases"></div>
+    <div id="cases">
+        <ul id="list"></ul>
+    </div>
+
 
     <script src="index.js"></script>
 </body>
