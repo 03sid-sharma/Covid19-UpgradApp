@@ -39,7 +39,6 @@ button {
 }
 
 .cases {
-    background-color: rgb(59, 59, 235);
     height: 30%;
     width: 40%;
     color: white;
@@ -47,10 +46,28 @@ button {
     margin: 25px 50px 15px 350px;
 }
 
-li {
+#list {
     padding: 15px;
     color: white;
-    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caseDesc {
+    padding: 10px 0;
+}
+
+.caseByDiv {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: rgb(59, 59, 235);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
 }
 
 @media screen and (max-width: 800px) {
