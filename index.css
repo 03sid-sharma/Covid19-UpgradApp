@@ -1,0 +1,25 @@
+* {
+    margin: 1px;
+    padding: 1px;
+}
+
+body {
+    background-image: url('./images/pexels-edward-jenner-4031867.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0px 10px 0px;
+    display: inline-block;
+    border: 0px solid rgb(168, 165, 165);
+    box-sizing: border-box;
+    background-color: rgb(181, 247, 247);
+    font-weight: bolder;
+}
