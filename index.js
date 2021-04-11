@@ -15,7 +15,6 @@ function apiCall() {
 
     xhr.onload = function() {
         if (this.status === 200) {
-
             var arr = JSON.parse(this.responseText);
 
             var list = document.getElementById("list");
@@ -37,6 +36,7 @@ function apiCall() {
                     span.textContent = renderArr[i];
                     caseByDiv.append(span);
                 }
+
                 list.append(caseByDiv);
             }
         } else
