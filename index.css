@@ -40,8 +40,8 @@ button {
     cursor: pointer;
 }
 
-#cases {
-    margin-top: 20px;
+ul {
+    color: white;
 }
 
 @media screen and (max-width: 800px) {
