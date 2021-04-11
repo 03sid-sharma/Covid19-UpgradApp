@@ -1,6 +1,8 @@
 * {
     margin: 1px;
     padding: 1px;
+    font-family: "Calibri, sans-serif";
+    font-size: 15px;
 }
 
 body {
@@ -18,8 +20,18 @@ input {
     padding: 15px;
     margin: 25px;
     display: inline-block;
-    border: 0px solid rgb(168, 165, 165);
+    border: 2px solid rgb(168, 165, 165);
     box-sizing: border-box;
     background-color: rgb(181, 247, 247);
     font-weight: bolder;
+}
+
+button {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    padding: 2px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
 }
